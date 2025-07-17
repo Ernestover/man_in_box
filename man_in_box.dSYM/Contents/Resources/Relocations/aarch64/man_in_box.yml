@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ernes/Developer/man_in_box/man_in_box'
+relocations:     []
+...
