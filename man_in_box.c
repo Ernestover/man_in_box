@@ -17,11 +17,19 @@ void printGame(int pc, int ir, int acc)
     printf("--------------------------------------------------\n");
     printf("CPU\n");
     printf("\n| Program Counter: ");
-    printf("%d | \n", pc);
+    printf("%d      | \n", pc);
     printf("\n| Instruction Register: ");
     printf("%d | \n", ir);
     printf("\n| Accumulator: ");
-    printf("%d | \n", acc);
+    printf("%d          | \n", acc);
+
+    printf("--------------------------------------------------\n");
+    printf("\nRAM\n");
+    printf("\nAddress ");
+    printf("|    0    |    1    |    2    |    3    |    4    |    5    |    6    |    7    |\n");
+    printf("-----------------------------------------------------------------------------------------\n");
+    printf("Value  ");
+    printf(" |  Load 6 |  Add 7  | Store 6 | Jump  1 |    0    |    0    |    1    |    2    |\n");
 }
 
 /// INPUT STUFF
